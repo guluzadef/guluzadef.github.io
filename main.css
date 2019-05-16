@@ -2,7 +2,10 @@
 .credit_photo{
     width: 67px;
 }
-
+.btn{
+    width: 123px !important;
+    height: 52px !important;
+}
 .men_buy{
     display: inline;
 }
