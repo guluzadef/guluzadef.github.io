@@ -6,6 +6,46 @@
     width: 123px !important;
     height: 52px !important;
 }
+/* .men img :hover{
+    width: 400px
+} */
+.men :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.mens :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.womens :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.babys :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.sports :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* .men_1 :hover  img{
+    background-color: #f0f0f0;
+    width: 40px;
+}
+
+.womens_1 :hover  img{
+    width: 40px;
+}
+
+.sports_1 :hover  img{
+    width: 40px;
+}
+.babys_1 :hover  img{
+    width: 40px;
+} */
+
 .men_buy{
     display: inline;
 }
@@ -16,12 +56,18 @@
     width: 285px
 }
 .form-control{
-    width: 15%;
+    width: 46%;
 }
 .col-md-6{
     display: flex
 }
 .name{    font-family: serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #626362d9;
+    font-size: 24px;
+}
+.size{    font-family: serif;
     font-style: italic;
     font-weight: 700;
     color: #626362d9;
@@ -185,3 +231,5 @@ h3{
     margin: 36px;
     padding: 31px;
 }
+
+  
