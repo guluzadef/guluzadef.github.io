@@ -4,7 +4,7 @@ var selected_price;
 $(document).ready(function (e) {
     console.log("sadasd")
     $(".mens").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "new_men.html",
             method: "GET",
@@ -16,7 +16,7 @@ $(document).ready(function (e) {
         })
     })
     $(".yuxari").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "esas.html",
             method: "GET",
@@ -28,7 +28,7 @@ $(document).ready(function (e) {
         })
     })
     $(".homec").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "esas.html",
             method: "GET",
@@ -40,7 +40,7 @@ $(document).ready(function (e) {
         })
     })
     $(".womensa").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "new_women.html",
             method: "GET",
@@ -52,7 +52,7 @@ $(document).ready(function (e) {
         })
     })
     $(".babys").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "new_baby.html",
             method: "GET",
@@ -64,7 +64,7 @@ $(document).ready(function (e) {
         })
     })
     $(".sports").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "new_sport.html",
             method: "GET",
@@ -76,7 +76,7 @@ $(document).ready(function (e) {
         })
     })
     $(".contacts").click(function (e) {
-        console.log("asdasdasd")
+        console.log("clicked")
         $.ajax({
             url: "new_contact.html",
             method: "GET",
