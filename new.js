@@ -107,4 +107,7 @@ $(document).ready(function (e) {
     $(".buy_buton").click(function e(){
         alert("Thanks!")
     })
+    $(".email").click(function e(){
+        console("ready")
+    })
 })

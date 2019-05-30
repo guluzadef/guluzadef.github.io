@@ -261,3 +261,17 @@ h3{
     margin-left: 9px;
     color: gray;
 }
+.search_text{
+    width: 277px;
+    height: 30px;
+}
+
+  .my_select{
+    background: white;
+    font-family: inherit;
+    width: 163px;
+    height: 24px;
+  }
+  .menu li :hover{
+      font-size: 18px;
+  }
